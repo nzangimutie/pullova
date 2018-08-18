@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/activity_background"
+    tools:context="kinzangilar.systems.munzangilar.org.pullova_test.PromotionFragment">
+
+    <include layout="@layout/toolbar_layout" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv_commentLine"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_below="@+id/toolbar"
+            android:layout_marginTop="28dp"
+            android:gravity="center"
+            android:textColor="@color/textColor"
+            android:text="@string/commentLineText"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_rawPromoCodeText"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/tv_commentLine"
+            android:layout_marginStart="62dp"
+            android:layout_marginTop="46dp"
+            android:textColor="@color/textColor"
+            android:gravity="center_vertical"
+            android:text="@string/rawPromoCodeText"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/edt_promoCode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/tv_rawPromoCodeText"
+            android:layout_alignBottom="@+id/tv_rawPromoCodeText"
+            android:layout_marginStart="30dp"
+            android:layout_toEndOf="@+id/tv_rawPromoCodeText"
+            android:ems="10"
+            android:textColor="@color/textColor"
+            android:textColorHint="@color/hintTextColor"
+            android:hint="@string/promoCodeHint"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/btnApply"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/edt_promoCode"
+            android:layout_marginTop="32dp"
+            android:background="?attr/textColorError"
+            android:textColor="@color/textColor"
+            android:text="@string/btnApplyText" />
+    </RelativeLayout>
+</LinearLayout>

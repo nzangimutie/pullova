@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Pullova</string>
+    <string name="salutation">Hello Mutie...</string>
+    <string name="promoCodeText">Promo Code:</string>
+    <string name="promoCode">JXC45R</string>
+    <string name="generatePromoCodeTxt">Generate Promo Code</string>
+    <string name="tryYourCodeText"><u>Try Your Code</u></string>
+    <string name="commentLineText">If you have a promo code please enter it in the field below:</string>
+    <string name="rawPromoCodeText">Promo Code: </string>
+    <string name="promoCodeHint">PX56GY</string>
+    <string name="btnApplyText">Apply</string>
+    <string name="codeMisMatchStrn">Do you want to generate a new code?</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="close">Close</string>
+    <string name="promotionScrnTitle">Promotion</string>
+    <string name="wrongCodePromptText">Please enter a valid code</string>
+    <string name="exitMsg">Press Again to exit</string>
+    <string name="mapSrnTitle">Map Screen</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
